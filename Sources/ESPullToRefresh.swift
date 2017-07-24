@@ -440,7 +440,7 @@ open class ESRefreshFooterView: ESRefreshComponent {
             return
         }
 
-        if scrollView.contentSize.height <= 0.0 || scrollView.contentOffset.y + scrollView.contentInset.top <= 0.0 {
+        if scrollView.contentSize.height == 0.0 || scrollView.contentOffset.y + scrollView.contentInset.top < 0.0 {
             self.alpha = 0.0
             return
         } else {
