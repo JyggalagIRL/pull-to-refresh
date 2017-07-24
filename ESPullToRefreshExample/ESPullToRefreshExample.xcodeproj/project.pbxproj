@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2869905B1EAF382C005B3E3E /* ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2869905A1EAF382C005B3E3E /* ES.swift */; };
+		37B2CD641F25EA4700451FB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2CD631F25EA4700451FB4 /* AppDelegate.swift */; };
+		37B2CD661F25EA4700451FB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2CD651F25EA4700451FB4 /* ViewController.swift */; };
+		37B2CD691F25EA4700451FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B2CD671F25EA4700451FB4 /* Main.storyboard */; };
+		37B2CD6B1F25EA4700451FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B2CD6A1F25EA4700451FB4 /* Assets.xcassets */; };
+		37B2CD6E1F25EA4700451FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B2CD6C1F25EA4700451FB4 /* LaunchScreen.storyboard */; };
+		37B2CD731F25EA9700451FB4 /* ESRefreshHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69077021D0D0A7F00BE91FE /* ESRefreshHeaderAnimator.swift */; };
+		37B2CD741F25EA9700451FB4 /* ESRefreshFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69077011D0D0A7F00BE91FE /* ESRefreshFooterAnimator.swift */; };
+		37B2CD751F25EA9700451FB4 /* ESPullToRefresh+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69077041D0D0A7F00BE91FE /* ESPullToRefresh+Manager.swift */; };
+		37B2CD761F25EA9700451FB4 /* ESPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69077061D0D0A7F00BE91FE /* ESPullToRefresh.swift */; };
+		37B2CD771F25EA9700451FB4 /* ESRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69077081D0D0A7F00BE91FE /* ESRefreshComponent.swift */; };
+		37B2CD781F25EA9700451FB4 /* ESRefreshAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69077071D0D0A7F00BE91FE /* ESRefreshAnimator.swift */; };
+		37B2CD791F25EA9700451FB4 /* ESRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69077091D0D0A7F00BE91FE /* ESRefreshProtocol.swift */; };
+		37B2CD7A1F25EA9700451FB4 /* ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2869905A1EAF382C005B3E3E /* ES.swift */; };
+		37B2CD7B1F25EB2100451FB4 /* icon_pull_to_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F69077031D0D0A7F00BE91FE /* icon_pull_to_refresh_arrow@2x.png */; };
+		37B2CD7E1F25EEF000451FB4 /* NoMoreDataTestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2CD7D1F25EEF000451FB4 /* NoMoreDataTestTableViewController.swift */; };
+		37B2CD801F25F0BD00451FB4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2CD7F1F25F0BD00451FB4 /* Helper.swift */; };
 		5A180DBC1E80112D00F9EE1A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A180DBE1E80112D00F9EE1A /* Localizable.strings */; };
 		F63613701CDD9CCD00AA9AF7 /* MTRefreshHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F636136F1CDD9CCD00AA9AF7 /* MTRefreshHeaderAnimator.swift */; };
 		F63613721CDD9CD900AA9AF7 /* MTRefreshFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63613711CDD9CD900AA9AF7 /* MTRefreshFooterAnimator.swift */; };
@@ -64,6 +80,15 @@
 
 /* Begin PBXFileReference section */
 		2869905A1EAF382C005B3E3E /* ES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ES.swift; sourceTree = "<group>"; };
+		37B2CD611F25EA4700451FB4 /* ESPullToRefreshTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPullToRefreshTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B2CD631F25EA4700451FB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37B2CD651F25EA4700451FB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37B2CD681F25EA4700451FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37B2CD6A1F25EA4700451FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37B2CD6D1F25EA4700451FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37B2CD6F1F25EA4700451FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B2CD7D1F25EEF000451FB4 /* NoMoreDataTestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoMoreDataTestTableViewController.swift; sourceTree = "<group>"; };
+		37B2CD7F1F25F0BD00451FB4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		5A180DBD1E80112D00F9EE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5A180DBF1E80113B00F9EE1A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5A180DC01E80114200F9EE1A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -105,6 +130,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		37B2CD5E1F25EA4700451FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F69077291D0D0AE300BE91FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,6 +154,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37B2CD621F25EA4700451FB4 /* ESPullToRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				37B2CD631F25EA4700451FB4 /* AppDelegate.swift */,
+				37B2CD651F25EA4700451FB4 /* ViewController.swift */,
+				37B2CD7C1F25EEC400451FB4 /* Tests */,
+				37B2CD671F25EA4700451FB4 /* Main.storyboard */,
+				37B2CD6A1F25EA4700451FB4 /* Assets.xcassets */,
+				37B2CD6C1F25EA4700451FB4 /* LaunchScreen.storyboard */,
+				37B2CD6F1F25EA4700451FB4 /* Info.plist */,
+			);
+			path = ESPullToRefreshTests;
+			sourceTree = "<group>";
+		};
+		37B2CD7C1F25EEC400451FB4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				37B2CD7D1F25EEF000451FB4 /* NoMoreDataTestTableViewController.swift */,
+				37B2CD7F1F25F0BD00451FB4 /* Helper.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		F636136D1CDD9C9100AA9AF7 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +252,7 @@
 			children = (
 				F69076FF1D0D0A7F00BE91FE /* Sources */,
 				F692000E1CDB9A530029EF47 /* ESPullToRefreshExample */,
+				37B2CD621F25EA4700451FB4 /* ESPullToRefreshTests */,
 				F69077271D0D0AC400BE91FE /* Framework */,
 				F690772E1D0D0AE300BE91FE /* ESPullToRefresh */,
 				F692000D1CDB9A530029EF47 /* Products */,
@@ -208,6 +264,7 @@
 			children = (
 				F692000C1CDB9A530029EF47 /* Example.app */,
 				F690772D1D0D0AE300BE91FE /* ESPullToRefresh.framework */,
+				37B2CD611F25EA4700451FB4 /* ESPullToRefreshTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -277,6 +334,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		37B2CD601F25EA4700451FB4 /* ESPullToRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B2CD701F25EA4700451FB4 /* Build configuration list for PBXNativeTarget "ESPullToRefreshTests" */;
+			buildPhases = (
+				37B2CD5D1F25EA4700451FB4 /* Sources */,
+				37B2CD5E1F25EA4700451FB4 /* Frameworks */,
+				37B2CD5F1F25EA4700451FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESPullToRefreshTests;
+			productName = ESPullToRefreshTests;
+			productReference = 37B2CD611F25EA4700451FB4 /* ESPullToRefreshTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F690772C1D0D0AE300BE91FE /* ESPullToRefresh */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F69077321D0D0AE300BE91FE /* Build configuration list for PBXNativeTarget "ESPullToRefresh" */;
@@ -319,10 +393,14 @@
 		F69200041CDB9A530029EF47 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "egg swift";
 				TargetAttributes = {
+					37B2CD601F25EA4700451FB4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
 					F690772C1D0D0AE300BE91FE = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0800;
@@ -352,11 +430,23 @@
 			targets = (
 				F692000B1CDB9A530029EF47 /* ESPullToRefreshExample */,
 				F690772C1D0D0AE300BE91FE /* ESPullToRefresh */,
+				37B2CD601F25EA4700451FB4 /* ESPullToRefreshTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		37B2CD5F1F25EA4700451FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B2CD6B1F25EA4700451FB4 /* Assets.xcassets in Resources */,
+				37B2CD691F25EA4700451FB4 /* Main.storyboard in Resources */,
+				37B2CD6E1F25EA4700451FB4 /* LaunchScreen.storyboard in Resources */,
+				37B2CD7B1F25EB2100451FB4 /* icon_pull_to_refresh_arrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F690772B1D0D0AE300BE91FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +474,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		37B2CD5D1F25EA4700451FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B2CD731F25EA9700451FB4 /* ESRefreshHeaderAnimator.swift in Sources */,
+				37B2CD741F25EA9700451FB4 /* ESRefreshFooterAnimator.swift in Sources */,
+				37B2CD751F25EA9700451FB4 /* ESPullToRefresh+Manager.swift in Sources */,
+				37B2CD761F25EA9700451FB4 /* ESPullToRefresh.swift in Sources */,
+				37B2CD771F25EA9700451FB4 /* ESRefreshComponent.swift in Sources */,
+				37B2CD781F25EA9700451FB4 /* ESRefreshAnimator.swift in Sources */,
+				37B2CD791F25EA9700451FB4 /* ESRefreshProtocol.swift in Sources */,
+				37B2CD7E1F25EEF000451FB4 /* NoMoreDataTestTableViewController.swift in Sources */,
+				37B2CD7A1F25EA9700451FB4 /* ES.swift in Sources */,
+				37B2CD661F25EA4700451FB4 /* ViewController.swift in Sources */,
+				37B2CD641F25EA4700451FB4 /* AppDelegate.swift in Sources */,
+				37B2CD801F25F0BD00451FB4 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F69077281D0D0AE300BE91FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,6 +539,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		37B2CD671F25EA4700451FB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B2CD681F25EA4700451FB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37B2CD6C1F25EA4700451FB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B2CD6D1F25EA4700451FB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		5A180DBE1E80112D00F9EE1A /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -460,6 +585,37 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		37B2CD711F25EA4700451FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = ESPullToRefreshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyggalag.ESPullToRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		37B2CD721F25EA4700451FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = ESPullToRefreshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jyggalag.ESPullToRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		F69077331D0D0AE300BE91FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -631,6 +787,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		37B2CD701F25EA4700451FB4 /* Build configuration list for PBXNativeTarget "ESPullToRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B2CD711F25EA4700451FB4 /* Debug */,
+				37B2CD721F25EA4700451FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		F69077321D0D0AE300BE91FE /* Build configuration list for PBXNativeTarget "ESPullToRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
