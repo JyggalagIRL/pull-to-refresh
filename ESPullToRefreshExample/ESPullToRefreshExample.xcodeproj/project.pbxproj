@@ -24,6 +24,7 @@
 		37B2CD7B1F25EB2100451FB4 /* icon_pull_to_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F69077031D0D0A7F00BE91FE /* icon_pull_to_refresh_arrow@2x.png */; };
 		37B2CD7E1F25EEF000451FB4 /* NoMoreDataTestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2CD7D1F25EEF000451FB4 /* NoMoreDataTestTableViewController.swift */; };
 		37B2CD801F25F0BD00451FB4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2CD7F1F25F0BD00451FB4 /* Helper.swift */; };
+		37C90E6D1F26D93700148CE5 /* ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2869905A1EAF382C005B3E3E /* ES.swift */; };
 		5A180DBC1E80112D00F9EE1A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A180DBE1E80112D00F9EE1A /* Localizable.strings */; };
 		F63613701CDD9CCD00AA9AF7 /* MTRefreshHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F636136F1CDD9CCD00AA9AF7 /* MTRefreshHeaderAnimator.swift */; };
 		F63613721CDD9CD900AA9AF7 /* MTRefreshFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63613711CDD9CD900AA9AF7 /* MTRefreshFooterAnimator.swift */; };
@@ -497,6 +498,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C90E6D1F26D93700148CE5 /* ES.swift in Sources */,
 				F69077351D0D0AF400BE91FE /* ESRefreshFooterAnimator.swift in Sources */,
 				F69077361D0D0AF400BE91FE /* ESRefreshHeaderAnimator.swift in Sources */,
 				F69077381D0D0AF400BE91FE /* ESPullToRefresh+Manager.swift in Sources */,
@@ -794,6 +796,7 @@
 				37B2CD721F25EA4700451FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F69077321D0D0AE300BE91FE /* Build configuration list for PBXNativeTarget "ESPullToRefresh" */ = {
 			isa = XCConfigurationList;
