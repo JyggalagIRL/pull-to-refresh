@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2869905B1EAF382C005B3E3E /* ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2869905A1EAF382C005B3E3E /* ES.swift */; };
+		37A22B991F28C30100B31EEA /* ContentInsetTestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A22B981F28C30100B31EEA /* ContentInsetTestTableViewController.swift */; };
 		37B2CD641F25EA4700451FB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2CD631F25EA4700451FB4 /* AppDelegate.swift */; };
 		37B2CD661F25EA4700451FB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B2CD651F25EA4700451FB4 /* ViewController.swift */; };
 		37B2CD691F25EA4700451FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B2CD671F25EA4700451FB4 /* Main.storyboard */; };
@@ -81,6 +82,7 @@
 
 /* Begin PBXFileReference section */
 		2869905A1EAF382C005B3E3E /* ES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ES.swift; sourceTree = "<group>"; };
+		37A22B981F28C30100B31EEA /* ContentInsetTestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentInsetTestTableViewController.swift; sourceTree = "<group>"; };
 		37B2CD611F25EA4700451FB4 /* ESPullToRefreshTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESPullToRefreshTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B2CD631F25EA4700451FB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37B2CD651F25EA4700451FB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				37B2CD7D1F25EEF000451FB4 /* NoMoreDataTestTableViewController.swift */,
+				37A22B981F28C30100B31EEA /* ContentInsetTestTableViewController.swift */,
 				37B2CD7F1F25F0BD00451FB4 /* Helper.swift */,
 			);
 			path = Tests;
@@ -485,6 +488,7 @@
 				37B2CD761F25EA9700451FB4 /* ESPullToRefresh.swift in Sources */,
 				37B2CD771F25EA9700451FB4 /* ESRefreshComponent.swift in Sources */,
 				37B2CD781F25EA9700451FB4 /* ESRefreshAnimator.swift in Sources */,
+				37A22B991F28C30100B31EEA /* ContentInsetTestTableViewController.swift in Sources */,
 				37B2CD791F25EA9700451FB4 /* ESRefreshProtocol.swift in Sources */,
 				37B2CD7E1F25EEF000451FB4 /* NoMoreDataTestTableViewController.swift in Sources */,
 				37B2CD7A1F25EA9700451FB4 /* ES.swift in Sources */,

@@ -340,9 +340,9 @@ open class ESRefreshHeaderView: ESRefreshComponent {
         self.animator.refreshAnimationEnd(view: self)
         
         // Back state
-        scrollView.contentInset.top = self.scrollViewInsets.top
-        scrollView.contentOffset.y =  self.scrollViewInsets.top + self.previousOffset
+        // scrollView.contentOffset.y = self.scrollViewInsets.top + self.previousOffset
         UIView.animate(withDuration: 0.2, delay: 0, options: .curveLinear, animations: {
+            scrollView.contentInset.top = self.scrollViewInsets.top
             scrollView.contentOffset.y = -self.scrollViewInsets.top
             }, completion: { (finished) in
                 self.animator.refresh(view: self, stateDidChange: .pullToRefresh)
